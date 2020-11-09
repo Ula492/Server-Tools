@@ -1,0 +1,15 @@
+name: ServerTools
+version: ${project.version}
+main: org.ula.servertools.main
+api-version: 1.16
+prefix: Tools
+authors: [ Ula ]
+description: Server Tools
+commands:
+  a:
+    description: Command to open admin GUI
+
+
+permissions:
+  admin.servertools:
+    default: op
